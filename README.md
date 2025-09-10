@@ -2,7 +2,6 @@
 
 [![Language](https://img.shields.io/badge/Language-C-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![Data Structure](https://img.shields.io/badge/Data%20Structure-Doubly%20Linked%20List-green.svg)](#data-structures)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Cross%20Platform-lightgrey.svg)](#compilation)
 
 A feature-rich console-based music player implemented in C using doubly linked lists. This project demonstrates core data structure concepts and algorithms while providing practical music player functionality.
@@ -167,11 +166,7 @@ struct MusicPlayer {
 music-player-dsa/
 ├── main.c              # Main source code
 ├── README.md           # Project documentation
-├── Makefile           # Build automation (optional)
-├── LICENSE            # MIT License
-└── examples/          # Usage examples and test cases
-    ├── sample_input.txt
-    └── test_cases.txt
+├── test_cases.txt      # test case
 ```
 
 ## 🧪 Testing
@@ -226,16 +221,12 @@ This project demonstrates mastery of:
 - ✅ **Problem Solving** - Real-world application development
 - ✅ **C Programming** - Advanced C concepts and best practices
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: [@PranavHarlalka](https://github.com/PranavHarlalka)
+- LinkedIn: [Pranav Harlalka](https://www.linkedin.com/in/pranav-harlalka-799a9b30b)
+- Email: pranavharlalka2@gmail.com
 
 ## 🙏 Acknowledgments
 
