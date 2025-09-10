@@ -223,7 +223,7 @@ This project demonstrates mastery of:
 
 ## 👤 Author
 
-**Your Name**
+**Pranav Harlalka**
 - GitHub: [@PranavHarlalka](https://github.com/PranavHarlalka)
 - LinkedIn: [Pranav Harlalka](https://www.linkedin.com/in/pranav-harlalka-799a9b30b)
 - Email: pranavharlalka2@gmail.com
