@@ -216,7 +216,7 @@ void playCurrentSong(struct MusicPlayer* player) {
 
     player->isPlaying = 1;
     player->currentPosition = 0;
-    printf("\n🎵 Now Playing: '%s' by %s\n", player->current->title, player->current->artist);
+    printf("\nNow Playing: '%s' by %s\n", player->current->title, player->current->artist);
     printf("Album: %s | Duration: %d:%02d\n", 
            player->current->album, 
            player->current->duration / 60, 
@@ -293,7 +293,7 @@ struct Song* peekPrevious(struct MusicPlayer* player) {
 void pauseSong(struct MusicPlayer* player) {
     if (player->isPlaying) {
         player->isPlaying = 0;
-        printf("⏸️ Song paused!\n");
+        printf("Song paused!\n");
     } else {
         printf("No song is currently playing!\n");
     }
@@ -304,7 +304,7 @@ void stopSong(struct MusicPlayer* player) {
     if (player->isPlaying || player->currentPosition > 0) {
         player->isPlaying = 0;
         player->currentPosition = 0;
-        printf("⏹️ Song stopped!\n");
+        printf("Song stopped!\n");
     } else {
         printf("No song is currently playing!\n");
     }
@@ -326,7 +326,7 @@ void displayPlaylist(struct MusicPlayer* player) {
     int position = 1;
 
     while (temp != NULL) {
-        char indicator = (temp == player->current) ? '►' : ' ';
+        char indicator = (temp == player->current) ? '>' : ' ';
         printf("%c%-3d %-25s %-20s %-20s %02d:%02d\n", 
                indicator,
                temp->id, 
